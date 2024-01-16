@@ -1,0 +1,67 @@
+.heading {
+    color: #3498db;
+    font-size: xxx-large;
+}
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 300px;
+    margin: auto; 
+  }
+  
+  .chip-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: text;
+    width: 200%;
+    background-color: #fafafa;
+    border:0;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .chip {
+    background-color: #3498db; 
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 12px; 
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  .chip-remove {
+    background: #e74c3c; 
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0; 
+    cursor: pointer;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border: 2px solid #3498db; 
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    transition: background-color 0.3s ease;
+  }
+
+  .item-list li:hover {
+    background-color: #f0f0f0;
+  }
+
